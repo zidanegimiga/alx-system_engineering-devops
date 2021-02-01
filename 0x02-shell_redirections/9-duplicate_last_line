@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '{print ">"$0}1' iacta
+sed "h;s/^/>/;x" iacta
