@@ -1,2 +1,2 @@
 #!/bin/bash
-LC_ALL=C find .//. -type d | grep -c //
+Ls -Ra | find -mindepth 1 -type d | wc -l
