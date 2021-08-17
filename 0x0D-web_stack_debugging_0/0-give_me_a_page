@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Debugging Apache to run and display the message Hello Holberton
+sed -i '1 i ServerName localhost' /etc/apache2/apache2.conf
