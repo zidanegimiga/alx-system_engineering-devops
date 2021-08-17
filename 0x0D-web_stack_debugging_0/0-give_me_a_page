@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-# Debugging Apache to run and display the message Hello Holberton
-sed -i '1 i ServerName localhost' /etc/apache2/apache2.conf
+# gets an apache server running
+# returns a page containing Hello Holberton when querying its root
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
