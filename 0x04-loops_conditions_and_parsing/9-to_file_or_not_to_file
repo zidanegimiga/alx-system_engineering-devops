@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#  Bash script that gives you information about the holbertonschool file.
+# Displays information about the file `holbertonschool`.
 
 if [ -e "holbertonschool" ]
 then
